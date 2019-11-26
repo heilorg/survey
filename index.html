@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>설문조사 프로그램</title>
+	<link rel="stylesheet" type="text/css" href="./asset/style.css">
+	<script type="text/javascript" src="./asset/app.js"></script>
+</head>
+<body>
+	<div id="wrap">
+		<div id="main" class="box">
+			<div class="title">
+				설문조사 요약 설정
+			</div>
+			
+			<div class="control">
+				<label for="problem">문항 수</label>
+				<input type="number" name="problem" id="problem">
+			</div>
+			
+			<div class="control">
+				<label for="answer">질의 수</label>
+				<input type="number" name="answer" id="answer">
+			</div>
+
+			<div class="control">
+				<button id="startBtn">
+					요약 시작
+				</button>
+			</div>
+		</div>
+
+		<div id="result" class="box">
+			<div class="title">
+				결과
+			</div>
+
+			<div id="resultDiv">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
